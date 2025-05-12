@@ -6,23 +6,35 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding:20px;
   }
   
   .container, .message-container {
     text-align: center;
     max-width: 600px;
+       background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
     color: #ff3385;
     font-size: 3rem;
+        margin-bottom: 10px;
   }
   
   p {
     font-size: 1.5rem;
     color: #444;
     margin-top: 10px;
+      line-height: 1.5;
   }
+.love-note {
+  font-style: italic;
+  color: #d63384;
+  margin-bottom: 20px;
+}
   
   .love-img {
     width: 200px;
